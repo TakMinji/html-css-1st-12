@@ -1,0 +1,41 @@
+body {
+    box-sizing: border-box;
+  }
+a{
+    text-decoration-line: none; font-weight: 600; color: #888888;
+}
+h1{
+   font-size: 50px; font-weight: 600; margin-bottom: 30px;
+}
+
+a:hover{
+    color: black; 
+}
+img{
+    width: 100%; height: auto; vertical-align: middle; 
+
+}
+span{
+    line-height: 50px;
+    display: flex; margin-left: 10px; margin-top:20px
+}
+span p{
+    word-spacing: 15px;
+}
+img {
+    max-width: 100%;
+}
+.jb-a {
+    width: 400px;
+    margin: 0px auto;
+    position: relative
+}
+.jb-c {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+.jb-a:hover .jb-c {
+    display: block;
+}
