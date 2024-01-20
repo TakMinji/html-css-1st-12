@@ -16,8 +16,7 @@ a{
     text-decoration: none;
 }
 
-
-
+/* header */
 header{
     padding: 20px 50px;
 }
@@ -107,6 +106,18 @@ footer{
     font-size: 14px;
 }
 /* footer fin */
+
+/* scroll  */
+[data-trigger]{
+    opacity: 0;
+    position: relative;
+    top: 20px;
+    transition: .8s ease-out;
+}
+[data-trigger].visible{
+    opacity: 1;
+    top: 0;
+}
 
 /* main */
 main{
@@ -205,6 +216,7 @@ main{
     margin: 0 auto;
 }
 
+/* news */
 .main-news{
     margin-bottom: 100px;
 }
@@ -295,7 +307,7 @@ main{
 .main-vibe .vibe-img .vibe-bg{
     width: 600px;
     height: 400px;
-    background-color: #f8f8f8;
+    background-color: #f0f0f0;
     z-index: -1;
     position: absolute;
     right: 0;
