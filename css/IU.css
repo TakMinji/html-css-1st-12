@@ -43,7 +43,7 @@ div.artist-img{
 
 span{
     line-height: 50px;
-    display: flex; margin-left: 10px; margin-top:20px
+    display: flex; 
 }
 span p{
     word-spacing: 15px;
