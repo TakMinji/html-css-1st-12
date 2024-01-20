@@ -8,11 +8,37 @@
     <link rel="stylesheet" href="css/ARTIST.css">
 </head>
 <body>
-    <nav class="Artists-navbar bg-body mt-3 mb-3">
-        <div class="container">
-            <img src="https://www.ygfamily.com/home/assets/images/logo.svg" style="width: 60px; height: 30px;" alt="">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <h1><a class="navbar-brand" href="#"><img src="./images/cn-h-logo.png" alt="cn entertainment logo"></a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">ABOUT CN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ARTISTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ACTORS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NEWS</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-    </nav>
+      </nav>
+</header>
+<!-- header fin -->
     <div class="Artists-header text-center mb-5">
         <h2 class="Artists-header-font">ARTISTS</h2>
     </div>
@@ -71,6 +97,57 @@
               <p>Charlie Puth</p>
             </div>
     </div>
+    <!-- artist list Fin -->
+    <footer>
+      <div class="f-top">
+          <ul class="icon-area">
+              <li>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa-brands fa-weibo"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+              </li>
+              <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+          </ul>
+          <h1><a href="#"><img src="./images/cn-f-logo.png" alt="CN Entertainment logo"></a></h1>
+      </div>
+      <div class="f-bottom">
+          <div class="familysite">
+              <p>FAMILYSITE</p>
+              <ul class="sitelist">
+                  <li>
+                      <a href="#">CN RECRUIT</a>
+                  </li>
+                  <li>
+                      <a href="#">CN LIFE</a>
+                  </li>
+                  <li>
+                      <a href="#">CN SELECT</a>
+                  </li>
+                  <li>
+                      <a href="#">CN AUDITION</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="copyright">
+              <div>
+                  <a href="#">PRIVACY POLICY</a>
+                  <a href="#">BUSINESS INQUIRY</a>
+              </div>
+              <p>All contents of CN Entertainment are protected by copyright.</p>
+              <p>&copy; CN Entertainment ALL RIGHTS RESERVED.</p>
+          </div>
+      </div>
+  </footer>
+  <!-- footer fin -->
     <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
