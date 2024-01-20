@@ -142,7 +142,7 @@ main{
     height: 100%;
     opacity: 0;
 }
-.main-artists li a:hover div{
+.main-artists li a:hover div:before{
     opacity: 1;
 }
 .main-artists li a > div h3{
