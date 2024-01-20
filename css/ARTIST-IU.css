@@ -1,3 +1,19 @@
+body,
+button{
+    font-family: "klavika-web", sans-serif;
+}
+ul,
+p,
+li{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 header{
     padding: 20px 50px;
 }
@@ -24,14 +40,15 @@ header .btn-outline-success:hover{
     background-color: #17BDD1;
 }
 /* header fin */
+
 body {
     box-sizing: border-box;
-  }
+}
 
-a{
+.artist-main a{
     text-decoration-line: none; font-weight: 600; color: rgb(136, 136, 136,0.5);
 }
-a:hover{
+.artist-main a:hover{
     color: black; 
 }
 h1{
