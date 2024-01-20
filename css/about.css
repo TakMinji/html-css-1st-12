@@ -24,7 +24,6 @@
 .title{
     text-align: center;
     padding-top: 48px;
-    border: 2px solid red;
     width: 100%;
 }
 
@@ -53,7 +52,6 @@
 }
 
 .image-container{
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
     overflow: hidden;
