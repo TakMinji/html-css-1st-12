@@ -433,8 +433,9 @@ main{
         width: 100%;
         height: 100%;
         opacity: 0;
+        display: block;
     }
-    .main-artists li a:hover div{
+    .main-artists li a:hover > div{
         opacity: 1;
     }
     .main-artists li a > div h3{
