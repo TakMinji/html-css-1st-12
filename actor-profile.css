@@ -1,140 +1,294 @@
 
 .actor-profile-sub_header {
-    max-width: 748px;
-    margin: 0 auto;
-  }
-  
-  .actor-arrow-image {
-      margin-right: 2px;
-      position: relative;
-      top: 1px;
-      width: 14px;
-      height: 16px;
-  }
-  
-  .actor-profile-center{
-    text-align: center;
-  }
-  
-  .actor-all_actor-btn{
-    opacity: 0.3;
-    color: black;
-    text-decoration: none;
-  }
-  
-  .actor-all_actor-btn:hover{
-    font-weight: 600;
-    opacity: 1 !important;
-  }
-  
-  .actor-profile-actor_name{
-    font-size: 2.85rem;
+  max-width: 748px;
+  margin: 0 auto;
+}
+
+.actor-arrow-image {
+    margin-right: 2px;
     position: relative;
-    font-family: "klavika-web", sans-serif;
-    font-weight: 700;
-    padding: 15px 0;
-  }
-  
-  .actor-profile-word{
-    color:  #ef4023;
-    text-decoration: none;
-    font-weight: 600;
-    margin: 0 -30px 108px 0;
-    font-size: 1.3rem;
-    margin-right: 30px;
-    margin: 0 -30px 108px 0;
-  }
-  
-  .actor-text {
-      display: flex;
-      flex-wrap: wrap;
-  }
-  
-  .actor-profile-images img {
-    width: 100%;
-    height: 700px;
-    object-fit: cover;
-  }
-  
-  .actors-txt {
-      font-size: 0.94rem;
-      font-weight: 500;
-      line-height: 1.88;
-      letter-spacing: -0.02em;
-  }
-  
-  .actor-second-section{
-    margin-top: 100px;
-  }
-  
-  .actor-border{
-    border: 1px solid black;
-  }
-  
-  .actor-third-flex{
+    top: 1px;
+    width: 14px;
+    height: 16px;
+}
+
+.actor-profile-center{
+  text-align: center;
+}
+
+.actor-all_actor-btn{
+  opacity: 0.3;
+  color: black;
+  text-decoration: none;
+}
+
+.actor-all_actor-btn:hover{
+  font-weight: 600;
+  opacity: 1 !important;
+}
+
+.actor-profile-actor_name{
+  font-size: 2.85rem;
+  position: relative;
+  font-family: "klavika-web", sans-serif;
+  font-weight: 700;
+  padding: 15px 0;
+}
+
+.actor-profile-word{
+  color:  #ef4023;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 -30px 108px 0;
+  font-size: 1.3rem;
+  margin-right: 30px;
+  margin: 0 -30px 108px 0;
+}
+
+.actor-text {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
-  }
-  
-  .actor-filmography-container{
-    padding: 110px 20px 100px;
-    margin-bottom: 100px;
-    border-bottom: 1px solid #eaeaea;
-  }
-  
-  .actor-third-flex a{
-    text-decoration: none;
-    margin-right: 30px;
-    font-weight: 700;
-    color: #111111;
-  }
-  
-  .actor-third-flex-font {
-    font-size: 1.1rem;
+}
+
+.actor-profile-images img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.actors-txt {
+    font-size: 0.94rem;
+    font-weight: 500;
+    line-height: 1.88;
     letter-spacing: -0.02em;
-    opacity: 0.3;
-    color: black;
-    margin-top: 13px;
-  }
-  
-  .actor-filmography-scroll h2.on{
-        position: relative;
-        opacity: 1;
-  }
-  
-  .actor-filmography-word {
-    font-size: 2.1rem;
-    font-weight: bold;
-  }
-  
-  .actor-movie-list{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .actor-movie-list h3{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+}
+
+.actor-second-section{
+  margin-top: 100px;
+}
+
+.actor-border{
+  border: 1px solid black;
+}
+
+.actor-third-flex{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.actor-filmography-container{
+  padding: 110px 20px 100px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.actor-third-flex a{
+  text-decoration: none;
+  margin-right: 30px;
+  font-weight: 700;
+  color: #111111;
+}
+
+.actor-third-flex-font {
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+  opacity: 0.3;
+  color: black;
+  margin-top: 13px;
+}
+
+.actor-filmography-scroll h2.on{
+      position: relative;
+      opacity: 1;
+}
+
+.actor-filmography-word {
+  font-size: 2.1rem;
+  font-weight: bold;
+}
+
+.actor-movie-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actor-movie-list h3{
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.actor-movie-list p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 18px;
+}
+
+.actor-filmography-container2{
+  padding: 1px 20px 100px;
+  margin-bottom: 100px;
+  text-align: right;
+}
+
+header{
+    padding: 20px 50px;
+}
+header .bg-body-tertiary{
+    background-color: #fff !important;
+}
+header .nav-item{
+    margin-left: 20px;
+}
+header .nav-link{
+    font-weight: 600;
+    color: #111;
+}
+header .nav-link:hover{
+    color: #17BDD1;
+}
+header .btn-outline-success{
+    border: 1px solid #888;
+    color: #888;
+}
+header .btn-outline-success:hover{
+    border: 1px solid #17BDD1;
+    color: #fff;
+    background-color: #17BDD1;
+}
+/* header fin */
+footer{
+    background-color: #111;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.f-top{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 200px;
+}
+.f-top .icon-area li{
+    display: inline-block;
     margin-right: 20px;
-  }
-  
-  .actor-movie-list p{
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    margin-top: 18px;
-  }
-  
-  .actor-filmography-container2{
-    padding: 1px 20px 100px;
-    margin-bottom: 100px;
+}
+.f-top .icon-area li a{
+    color: #fff;
+    font-size: 20px;
+}
+.f-top .icon-area li a:hover{
+    color: #17BDD1;
+}
+.f-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.f-bottom .familysite p{
+    color: #888;
+    margin-bottom: 20px;
+}
+.f-bottom .familysite li{
+    font-size: 26px;
+    font-weight: 700;
+}
+.f-bottom .familysite li:not(:last-child){
+    margin-bottom: 10px;
+}
+.f-bottom .familysite li a{
+    color: #fff;
+}
+.f-bottom .familysite li a:hover{
+    color: #17BDD1;
+}
+.f-bottom .copyright{
+    align-self: flex-end;
     text-align: right;
-  }
+}
+.f-bottom .copyright div{
+    margin-bottom: 30px;
+}
+.f-bottom .copyright a{
+    color: #888;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.f-bottom .copyright a:hover{
+    color: #17BDD1;
+}
+.f-bottom .copyright p{
+    color: #888;
+    font-size: 14px;
+}
+/* footer fin */
+@media(max-width: 575px){
+    footer{
+        background-color: #111;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .f-top{
+        display: block;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .f-top h1{
+        display: none;
+    }
+    .f-top .icon-area li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .f-top .icon-area li a{
+        color: #fff;
+        font-size: 20px;
+    }
+    .f-top .icon-area li a:hover{
+        color: #17BDD1;
+    }
+    .f-bottom{
+        display: block;
+        text-align: center;
+    }
+    .f-bottom .familysite{
+        margin-bottom: 50px;
+    }
+    .f-bottom .familysite p{
+        margin-bottom: 20px;
+        color: #888;
+        font-size: 18px;
+    }
+    .f-bottom .familysite li a{
+        font-size: 24px;
+        color: #fff;
+        font-weight: 700;
+    }
+    .f-bottom .familysite li a:hover{
+        color: #17BDD1;
+    }
+    .f-bottom .copyright{
+        text-align: center;
+    }
+    .f-bottom .copyright > div{
+        margin-bottom: 10px;
+    }
+    .f-bottom .copyright a{
+        color: #fff;
+        margin-left: 8px;
+        font-weight: 700;
+    }
+    .f-bottom .copyright a:hover{
+        color: #17BDD1;
+    }
+    .f-bottom .copyright p{
+        font-size: 12px;
+        color: #888;
+    }
+    /* mobile footer fin */
+}
