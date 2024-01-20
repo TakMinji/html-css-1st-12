@@ -1,7 +1,15 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
+ul,
+p,
+li{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
   
   
   .actor-image-icon{
