@@ -577,6 +577,7 @@ main{
     }
     .main-office .office-list img{
         margin-bottom: 10px;
+        width: 100%;
     }
     .main-office .office-list h3{
         font-size: 16px;
