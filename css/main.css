@@ -1,0 +1,599 @@
+body,
+button{
+    font-family: "klavika-web", sans-serif;
+}
+
+ul,
+p,
+li{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+header{
+    padding: 20px 50px;
+}
+header .bg-body-tertiary{
+    background-color: #fff !important;
+}
+header .nav-item{
+    margin-left: 20px;
+}
+header .nav-link{
+    font-weight: 600;
+    color: #111;
+}
+header .nav-link:hover{
+    color: #17BDD1;
+}
+header .btn-outline-success{
+    border: 1px solid #888;
+    color: #888;
+}
+header .btn-outline-success:hover{
+    border: 1px solid #17BDD1;
+    color: #fff;
+    background-color: #17BDD1;
+}
+/* header fin */
+
+footer{
+    background-color: #111;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.f-top{
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 200px;
+}
+.f-top .icon-area li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.f-top .icon-area li a{
+    color: #fff;
+    font-size: 20px;
+}
+.f-top .icon-area li a:hover{
+    color: #17BDD1;
+}
+.f-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.f-bottom .familysite p{
+    color: #888;
+    margin-bottom: 20px;
+}
+.f-bottom .familysite li{
+    font-size: 26px;
+    font-weight: 700;
+}
+.f-bottom .familysite li:not(:last-child){
+    margin-bottom: 10px;
+}
+.f-bottom .familysite li a{
+    color: #fff;
+}
+.f-bottom .familysite li a:hover{
+    color: #17BDD1;
+}
+.f-bottom .copyright{
+    align-self: flex-end;
+    text-align: right;
+}
+.f-bottom .copyright div{
+    margin-bottom: 30px;
+}
+.f-bottom .copyright a{
+    color: #888;
+    font-weight: 700;
+    margin-right: 10px;
+}
+.f-bottom .copyright a:hover{
+    color: #17BDD1;
+}
+.f-bottom .copyright p{
+    color: #888;
+    font-size: 14px;
+}
+/* footer fin */
+
+/* main */
+main{
+    max-width: 1520px;
+    margin: 0 auto 100px;
+}
+.main-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+/* artist */
+.main-artists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.main-artists li > a{
+    display: block;
+}
+.main-artists li a > div{
+    position: relative;
+}
+.main-artists li a > div:before{
+    content: '';
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.main-artists li a:hover div{
+    opacity: 1;
+}
+.main-artists li a > div h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 300px;
+    transition: all .5s;
+    z-index: 3;
+    color: #fff;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    opacity: 0;
+}
+.main-artists li a:hover > div h3{
+    opacity: 1;
+}
+.main-artists ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-artists > li{
+    margin: 0 auto 20px;
+}
+.main-artists ul > li:last-child{
+    margin-left: 20px;
+}
+.main-artists .artist-btn{
+    text-align: center;
+    margin-top: 100px;
+    /* line-height: 200px; */
+}
+.main-artists .artist-btn a{
+    color: #111;
+    margin-right: 10px;
+    position: relative;
+    font-weight: 700;
+}
+.main-artists .artist-btn a:after{
+    content: '+';
+    position: absolute;
+    right: -25px;
+    top: -2px;
+}
+.main-artists .artist-btn a:hover{
+    color: #17BDD1;
+}
+/* artist fin */
+.main-album{
+    margin-bottom: 100px;
+}
+.main-album h2{
+    margin-bottom: 30px;        
+}
+.main-album video{
+    display: block;
+    margin: 0 auto;
+}
+
+.main-news{
+    margin-bottom: 100px;
+}
+.main-news .m-news-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.main-news .m-news-title a{
+    color: #888;
+    font-weight: 700;
+    position: relative;
+}
+.main-news .m-news-title a:after{
+    content: '+';
+    position: absolute;
+    padding-left: 10px;
+    top: -2px;
+}
+.main-news .m-news-title a:hover{
+    color: #17BDD1;
+}
+.main-news .news-list img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.main-news .news-list .txt-elips{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main-news .news-list h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #111;
+}
+.main-news .news-list h3:hover{
+    color: #17BDD1;
+}
+.main-news .news-list p{
+    color: #888;
+    font-size: 14px;
+}
+/* main news fin */
+
+.main-vibe{
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+    margin-bottom: 100px;
+}
+.main-vibe h2{
+    font-size: 60px;
+    color: transparent;
+    font-weight: 700;
+    -webkit-text-stroke: 2px #111;
+    margin-bottom: 20px;
+}
+.main-vibe p{
+    margin-bottom: 50px;
+    font-size: 24px;
+    color: #111;
+}
+.main-vibe a{
+    color: #888;
+    position: relative;
+    font-weight: 700;
+}
+.main-vibe a:after{
+    content: '+';
+    top: -2px;
+    padding-left: 10px;
+}
+.main-vibe a:hover{
+    color: #17BDD1;
+}
+.main-vibe .vibe-img{
+    position: relative;
+    margin-top: 200px;
+}
+.main-vibe .vibe-img img{
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: -100px;
+}
+.main-vibe .vibe-img .vibe-bg{
+    width: 600px;
+    height: 400px;
+    background-color: #f8f8f8;
+    z-index: -1;
+    position: absolute;
+    right: 0;
+}
+.main-office h2{
+    margin-bottom: 30px;
+}
+.main-office .office-list li:nth-child(2){
+    margin-top: 30px;
+}
+.main-office .office-list img{
+    margin-bottom: 10px;
+}
+.main-office .office-list h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-office .office-list a{
+    color: #888;
+    position: relative;
+    font-size: 14px;
+}
+.main-office .office-list a:after{
+    content: '+';
+    position: absolute;
+    padding-left: 10px;
+    top: -2px;
+}
+.main-office .office-list a:hover{
+    color: #17BDD1;
+}
+
+
+
+
+/* 모바일 버전 */
+@media(max-width: 575px){
+    footer{
+        background-color: #111;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+    .f-top{
+        display: block;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .f-top h1{
+        display: none;
+    }
+    .f-top .icon-area li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .f-top .icon-area li a{
+        color: #fff;
+        font-size: 20px;
+    }
+    .f-top .icon-area li a:hover{
+        color: #17BDD1;
+    }
+    
+    .f-bottom{
+        display: block;
+        text-align: center;
+    }
+    .f-bottom .familysite{
+        margin-bottom: 50px;
+    }
+    .f-bottom .familysite p{
+        margin-bottom: 20px;
+        color: #888;
+        font-size: 18px;
+    }
+    .f-bottom .familysite li a{
+        font-size: 24px;
+        color: #fff;
+        font-weight: 700;
+    }
+    .f-bottom .familysite li a:hover{
+        color: #17BDD1;
+    }
+    .f-bottom .copyright{
+        text-align: center;
+    }
+    .f-bottom .copyright > div{
+        margin-bottom: 10px;
+    }
+    .f-bottom .copyright a{
+        color: #fff;
+        margin-left: 8px;
+        font-weight: 700;
+    }
+    .f-bottom .copyright a:hover{
+        color: #17BDD1;
+    }
+    .f-bottom .copyright p{
+        font-size: 12px;
+        color: #888;
+    }
+    /* mobile footer fin */
+    
+    body{
+        overflow-x: hidden;
+    }
+    main{
+        margin-bottom: 100px;
+    }
+    .main-artists{
+        margin-bottom: 100px;
+    }
+    .main-artists img{
+        width: 100%;
+    }
+    .main-artists ul{
+        justify-content: center;
+    }
+    .main-artists ul > li:last-child{
+        margin-left: 0;
+    }
+    .main-artists ul li > a{
+        display: block;
+        margin-bottom: 30px;
+    }
+    .main-artists li a > div{
+        position: relative;
+    }
+    .main-artists li a > div:before{
+        content: '';
+        background-color: rgba(0,0,0,.5);
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: all .3s;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+    }
+    .main-artists li a:hover div{
+        opacity: 1;
+    }
+    .main-artists li a > div h3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 300px;
+        transition: all .5s;
+        z-index: 3;
+        color: #fff;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 700;
+        opacity: 0;
+    }
+    .main-artists li a:hover > div h3{
+        opacity: 1;
+    }
+    .main-artists .artist-btn{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .main-artists .artist-btn a{
+        color: #888;
+        font-weight: 600;
+        position: relative;
+    }
+    .main-artists .artist-btn a:after{
+        content: '+';
+        position: absolute;
+        top: -2px;
+        padding-left: 5px;
+    }
+    .main-artists .artist-btn a:hover{
+        color: #17BDD1;
+    }
+    .main-album{
+        margin-bottom: 100px;
+    }
+    .main-title{
+        font-size: 20px;
+        font-weight: 700;
+        color: #111;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .main-news{
+        margin-bottom: 100px;
+    }
+    .main-news .m-news-title{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .main-news .m-news-title a{
+        display: block;
+        text-align: center;
+        color: #888;
+        position: relative;
+        font-size: 14px;
+    }
+    .main-news .m-news-title a:after{
+        position: absolute;
+        content: '+';
+        top: -2px;
+        padding-left: 8px;
+    }
+    .main-news .m-news-title a:hover{
+        color: #17BDD1;
+    }
+    .main-news .news-list li{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .main-news .news-list li img{
+        margin-bottom: 10px;
+    }
+    .main-news .news-list li h3{
+        color: #111;
+    }
+    .main-news .news-list li p{
+        color: #888;
+    }
+    .txt-elips{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .main-vibe{
+        display: block;
+        margin-bottom: 100px;
+        height: 600px;
+    }
+    .main-vibe .vibe-txt{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .main-vibe .vibe-txt h2{
+        font-size: 40px;
+        color: transparent;
+        font-weight: 700;
+        -webkit-text-stroke: 2px #111;
+    }
+    .main-vibe .vibe-txt p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .main-vibe .vibe-txt a{
+        position: relative;
+        color: #888;
+    }
+    .main-vibe .vibe-txt a:after{
+        content: '+';
+        position: absolute;
+        top: -2px;
+        padding-left: 8px;
+    }
+    .main-vibe .vibe-txt a:hover{
+        color: #17BDD1;
+    }
+    .main-vibe .vibe-img{
+        margin-top: 0;
+    }
+    .main-vibe .vibe-img img{
+        left: 0;
+        top: 0;
+        width: 100%;
+    }
+    .main-vibe .vibe-img .vibe-bg{
+        display: none;
+    }
+
+    .main-office .office-list{
+        text-align: center;
+    }
+    .main-office .office-list li{
+        margin-bottom: 30px;
+    }
+    .main-office .office-list img{
+        margin-bottom: 10px;
+    }
+    .main-office .office-list h3{
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .main-office .office-list a{
+        color: #888;
+        position: relative;
+        font-size: 14px;
+    }
+    .main-office .office-list a:after{
+        content: '+';
+        position: absolute;
+        top: -2px;
+        padding-left: 8px;
+    }
+    .main-office .office-list a:hover{
+        color: #17BDD1;
+    }
+}
