@@ -53,7 +53,7 @@ li{
 }
 .news-list{
     -webkit-box-flex-group: row;
-    display: flex;
+   
     flex-wrap: wrap;    
     position: relative;
     justify-content: space-between;
@@ -110,7 +110,7 @@ li{
     color: #17BDD1;
 }
 /* news fin */
-@media (max-width: 768px) {
+@media (max-width: 575px) {
     .card {
         width: 100%; 
         margin-bottom: 20px;
